@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma design 1st</title>
+</head>
+<style>
+    .container {
+        width: 70%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+    }
+
+    .grid-item {
+        padding: 5px;
+
+    }
+
+
+    .item-2 {
+        grid-row: span 2;
+    }
+
+    .item-3 {
+        grid-column: span 2;
+    }
+
+    .grid-item img {
+        border-radius: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="top">
+            <div class="left">
+                <h3>Popular things to do</h3>
+            </div>
+            <div class="ryt">
+                <h4>see all</h4>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item "><img
+                    src="https://s3-alpha-sig.figma.com/img/c657/7f6f/b6990653778bf4b5bb6185be28807658?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gfKCd0Z49RZ6bzrWMWgSHAWhs5xyHF7UOzMQx33eMBfGM-DmNP9d6yZrW0RWTqupAnuqYQHHdiIWd~zLWV4EqIRZFh3XPNb8-mHLaNQIVqUMfW~dvtJkWNsJK23MFHtccozg15gYL4hvUQA7fzta0N3zGp8RZknUiYUKl3u-fEUa6EGUmZMAvrITJC2GvYDC5B0pezR9Zx6Fn~ScX78Ieh7Dcm4k5VBBJrRqTOYW7K2GAxOVgDSPu3aB3o2ybU1qzGJqG3io-gdZgxpOeIjXzeY5z4jsrDH8ZidlQygAcRHMYFkf767HNt~L8hlMernswCqrK98oZA5IgUntPm4jBg__"
+                    alt="" height="100%">
+                <p>cruise</p>
+            </div>
+            <div class="grid-item item-2"><img
+                    src="https://s3-alpha-sig.figma.com/img/f96d/17e1/dd67e75be22a2eabd8e6ea40e945d925?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aAv6l~Ia9ffDW~bMqMYRdNsrwCRaW9YuEDkn6KeK6Zf-JRCvbBlUmQgdpCjwh12ZavMzXZSe1Fyi~NHWTirsCzfcgy50GP3SJKQQcaVOSKkjeK40~BLcNY1Mvx~asRcaW3pnp0iun59SqYmHHaJXsj4DtLyJo46BIQcIWbSimfAmmH0LvPJqqoBSF6vb3YCvH2zoyiRvGpzSuCigLA7ZLSAHmP9aizNkYO-gBTywQ8vEvQ33YGDlIk05p8ntl4QAAGErqfq7GavH2oJXOyt0BhYNulExJZFjO3A-jF5qKVapoFF5Ot-Y32bUagulokjAr7xxmbEFze~iF7egKnd-VA__"
+                    alt="" height="100%"></div>
+            <div class="grid-item item-3"><img
+                    src="https://s3-alpha-sig.figma.com/img/2ff2/6029/deb39ad7a853ca8202011d562a37bc39?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=emjGP4Vgw95WqubPTFYXdQRjBQAisKl9hkFLzsL24KjbgY-DqP98vPP1H6AYQSbIrGrznoQUW5ovxT12Mh8sxXY5N-5opV17EK6ETZJYbQYQTvn52X8-9d02OVYKd9SFi0vSKLgjb67n5qWIyNPXhWPBPwoYNHl20yfwgf~s2SbmyNAaoOrcS8bi3c~Qwc-OW178KB6wyxGd5tgPASmRJTqKAMpMqOvqh8BF9MCWCMCQiDgvknbRXPMLCwb-hMB~5WSdPJ0xBWk3Aa3Ct8RJaQCvTQPtDM2Ax25PclWjirs~lveYkHeGp43GVOUE8w2bampycx~lr74Stvzyog-CeA__"
+                    alt=""></div>
+            <div class="grid-item"><img
+                    src="https://s3-alpha-sig.figma.com/img/d874/fc71/535731c64abbcd9a3aeafdb3b159857f?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AYtMlm-gKjCjpaIHdzYjFfOVC3QJAeNhBDE5AKiMvAns49KyAxmebpTA~mmYy1NKYWCuAKtPM~TNJxbdx5o-IYk0NrpDaCVaVypcWpvx5f5R9FH6hpQmvogyLh4BdxuAEksxMhvttdE2yzXKRbvNtLnk4SxyxArYuM08syHlhJj9txOsReDRYag3DUYEwyOkU7EJuukXyknFAnsm4Ni22XjnNvmRUeZSk3njCQjk1RzbmsfhLKokUmm-jmClqAlMefBeh6R2kdb5CzFV8RBhYA0GgpMSe8AVeQCPQiwd8Zd49hYQvehY56tz8gwUnBoP2UzKtRs7rQvrSoKWlwlIcg__"
+                    alt="" height="100%"></div>
+            <div class="grid-item"><img
+                    src="https://s3-alpha-sig.figma.com/img/7209/3143/dfb65604c4fc304f939d1839431f63bb?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U1LUZO2Jf8MXylwvevhfjyk1s764He4O2eFoSTCGKIJ1jUHVEHNy6hbGR6CKOpUoG1~sYxPHanhCZNi~5rllU-tbJT4xp9VK-NL2xiDl5apGZ5tdtrSs0Qodjy9M0GGlCYsuHb7Um0JmpO-OMgcLfkVaGJ-fGnBjaQ9Q5txC9HdxqRGJXWUPZ7sdI7aNEClCDqnKB8DW3prKjWcVD-0zdbHqNkl5Pz7GBcs19Wjh3taYThohhEULK9L-dReodb~od1KW4qHQDMiNSN0vGNR8DYJE1cLynuzlZEPS~gZPrJ4bmL-EIhxOxegLGRJrppSY2MBCP43DTTKoyqCce3wnfQ__"
+                    alt=""></div>
+            <div class="grid-item"><img
+                    src="https://s3-alpha-sig.figma.com/img/2e66/30ff/493aadfac65cd99e205fab0510486aab?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FbFn2CgDKTfZQRmlzNq1si8mN5Db87UBdLsG~30W85oxkThEogyLOJVkg3OPJb5UYFHqFJD0z2mdmbwmBiG4O8w0UXEcJyCWlFX3HicUz6Amoj7VZnQkQmx8Ks-Ey2POG9AJidMpMuL6PS1-DrakDP57soXb7QhTo1bcqc8haBfwNl-OaSGtEe4gzLUY8kHx4Y-L3LKi-O5sL2guQ-SO4CYQYLznRnieUkcJF-Oo2gUPz8nTVP7rEMwLZtao-Iqg1ua9NR-NQzdsyAmnPO1SPlDkGGGLqUpThO7k63hanrezVhZEnL6DXLsNqhTj3LIrNHU1lscYfjwJD3R-fdy2DA__"
+                    alt="" height="100%"></div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
